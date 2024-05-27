@@ -1,0 +1,72 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300';
+*, *:after, *:before {box-sizing: border-box;}
+body {
+	font-family: "Open Sans",sans-serif;
+  color: inherit;
+  padding: 10vh 0 0 0;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  background: rgba(0,0,0,.25);
+  padding: 2em;
+}
+
+.row {
+	width: 100%; 
+	text-align: center;
+}
+.column {
+	width: 49.5%; 
+	display: inline-block;
+}
+.column a {
+	width: 25%; 
+	display: inline-block; 
+	text-align: center; 
+	padding: 20px 0; 
+	background: yellow; 
+	margin: 7px 0; 
+	cursor: crosshair;}
+.column a p {
+	display: block; 
+	text-align: center; 
+	transition: ease .35s;
+	opacity: 1;;
+}
+.column a:hover p {
+	opacity: 0;
+}
+.column a span {
+	dispay: block;
+	text-align: center;
+	transition: ease .35s;
+	opacity: 0;
+}
+.column a:hover span {
+	opacity: 1;
+}

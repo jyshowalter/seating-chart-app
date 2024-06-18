@@ -2,10 +2,6 @@
 
 This app was built to allow you to select and purchase your choice of a seat in a theater.
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
-
-![alt tag](http://placecorgi.com/1200/650)
-
 ## How It's Made:
 
 **Tech used:** Node.js, HTML, CSS, JavaScript
